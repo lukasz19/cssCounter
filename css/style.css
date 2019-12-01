@@ -1,0 +1,114 @@
+body{
+    background-color: #000;
+    color:#fff;
+    
+}
+
+.main-container {
+    width: 50%;
+    height: 50vh;
+    position: relative;
+    text-align: center;
+    font-size: 20vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    top: 25vh;
+    left: 25%;   
+}
+.paragraph-container {
+    position: absolute;
+    
+}
+ #licz1, #licz2, #licz3, 
+ #licz4, #licz5, #licz6, #licz7, #licz8, #licz9, 
+ #licz10, #tekst {
+     visibility: hidden;
+ }
+ @keyframes odliczanie {
+
+    0% {
+        visibility: hidden;
+    }
+    99%{
+        visibility: visible;
+    }
+    100% {
+        visibility: hidden;
+    }
+}
+@keyframes odliczanie {
+
+    0% {
+        visibility: hidden;
+    }
+    100%{
+        visibility: visible;
+    }
+}
+#licz10 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+   
+}
+#licz9 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 1s;
+  
+}
+#licz8 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 2s;
+ 
+}
+#licz7 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 3s;
+ 
+}
+#licz6 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 4s;
+ 
+}
+#licz5 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 5s;
+ 
+}
+#licz4 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 6s;
+ 
+}
+#licz3 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 7s;
+ 
+}
+#licz2 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 8s;
+ 
+}
+#licz1 {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 9s;
+ 
+}
+#tekst {
+    animation-name: odliczanie;
+    animation-duration: 1s;
+    animation-delay: 10s;
+ 
+}
